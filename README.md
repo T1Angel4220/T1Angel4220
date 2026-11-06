@@ -1,7 +1,7 @@
 # ¡Hola! 👋 Soy **Angel Ayuquina**  
 
 ### 🎯 Sobre mí
-<img src="perfil.jpg" align="right" width="200" style="margin: 10px; border-radius: 10px;" />
+<img src="pefil.jpg" align="right" width="200" style="margin: 10px; border-radius: 10px;" />
 
 - 💼 **Estudiante de Ingeniería en Software** en la Universidad Técnica de Ambato.  
 - 🐱 **Amante de los gatos:** Admiro su elegancia, independencia y personalidad única. 😻  

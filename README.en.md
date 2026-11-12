@@ -1,18 +1,22 @@
 <p align="right">
-  <a href="./README.md" lang="es">Español</a> &nbsp;·&nbsp; <strong>English</strong>
+  🌐 <a href="./README.md" lang="es">Español</a> &nbsp;·&nbsp; <strong>English</strong>
 </p>
 
 ![A coding and rock music room with cats, Viego and Teemo details, and a framed portrait of a winged cat.](./assets/profile-header.png)
 
-<h1 align="center">Angel Ayuquina</h1>
+<h1 align="center">👋 Hey! I'm Angel Ayuquina</h1>
 
 <p align="center">
-  <strong>Frontend Developer</strong> &nbsp; / &nbsp; Full Stack
+  <strong>🎨 Frontend Developer</strong> &nbsp; / &nbsp; 🧩 Full Stack
+</p>
+
+<p align="center">
+  <img src="./assets/ui/welcome-en.svg" width="520" alt="Building ideas, one click at a time.">
 </p>
 
 <p align="center">
   Clear interfaces, reusable components and connected applications.<br>
-  <sub>Software Engineering student · Universidad Técnica de Ambato · Ecuador</sub>
+  <sub>🎓 Software Engineering student · Universidad Técnica de Ambato · 🌎 Ecuador</sub>
 </p>
 
 <p align="center">
@@ -23,9 +27,18 @@
 
 <img src="./assets/ui/divider.svg" width="100%" height="18" alt="">
 
-## Selected projects
+<p align="center">
+  <a href="#projects">🚀 Projects</a> &nbsp;·&nbsp;
+  <a href="#stack">🛠️ Stack</a> &nbsp;·&nbsp;
+  <a href="#about">🐾 About me</a> &nbsp;·&nbsp;
+  <a href="#contact">🤝 Contact</a>
+</p>
 
-My projects connect interfaces with business logic: forms, authentication, dashboards and API integration. Here is a selection of what I have built.
+<a name="projects"></a>
+
+## 🚀 Things I've built
+
+From an idea to an interface: events, healthcare, commerce and management. Here is a selection of my **academic and personal projects**. 👇
 
 <p align="center">
   <a href="https://github.com/T1Angel4220/eventconnect"><img src="./assets/projects/eventconnect-en.svg" width="420" alt="EventConnect: events, registrations and capacity. React, TypeScript and Tailwind. Explore code."></a>
@@ -38,12 +51,14 @@ My projects connect interfaces with business logic: forms, authentication, dashb
 </p>
 
 <p align="center">
-  <a href="https://github.com/T1Angel4220?tab=repositories">Explore all my repositories ↗</a>
+  <a href="https://github.com/T1Angel4220?tab=repositories">🔎 There's more to explore: all my repositories ↗</a>
 </p>
 
 <img src="./assets/ui/divider.svg" width="100%" height="18" alt="">
 
-## Technologies I use
+<a name="stack"></a>
+
+## 🛠️ My development toolbox
 
 <p align="center">
   <img src="./assets/icons/react.svg" width="44" height="44" alt="React" title="React">
@@ -55,36 +70,49 @@ My projects connect interfaces with business logic: forms, authentication, dashb
   <img src="./assets/icons/vite.svg" width="44" height="44" alt="Vite" title="Vite">
 </p>
 
-- **Interface:** React · TypeScript · JavaScript · HTML · CSS · Tailwind CSS · Vite.
-- **State and routing:** React Router · Context API · Zustand.
-- **Integration:** REST APIs, authentication and role-based user flows.
+- **🎨 Interface:** React · TypeScript · JavaScript · HTML · CSS · Tailwind CSS · Vite.
+- **🔄 State and routing:** React Router · Context API · Zustand.
+- **🔌 Integration:** REST APIs, authentication and role-based user flows.
 
 <details>
-<summary><strong>Backend, mobile development and more projects</strong></summary>
+<summary><strong>🧩 There's more behind the frontend: backend, mobile and other projects</strong></summary>
 
-- **Backend:** Node.js · Express · PHP · Laravel.
-- **Databases:** PostgreSQL · MySQL.
-- **Tools:** Git · GitHub · Docker.
+- **⚙️ Backend:** Node.js · Express · PHP · Laravel.
+- **🗄️ Databases:** PostgreSQL · MySQL.
+- **🔧 Tools:** Git · GitHub · Docker.
 
-**[EventConnect Mobile](https://github.com/T1Angel4220/eventconnect-movil)** — An event app built with React Native, Expo and TypeScript.
+**📱 [EventConnect Mobile](https://github.com/T1Angel4220/eventconnect-movil)** — An event app built with React Native, Expo and TypeScript.
 
-**[Agente Telegram](https://github.com/T1Angel4220/AgenteTelegram)** — A NestJS and TypeScript bot connecting Telegram, GitHub and Trello.
+**🤖 [Agente Telegram](https://github.com/T1Angel4220/AgenteTelegram)** — A NestJS and TypeScript bot connecting Telegram, GitHub and Trello.
 
-**[Combustible SKT](https://github.com/T1Angel4220/Combustible-SKT)** — Microservices built with Java, Spring Boot, gRPC and Docker.
+**⛽ [Combustible SKT](https://github.com/T1Angel4220/Combustible-SKT)** — Microservices built with Java, Spring Boot, gRPC and Docker.
 
 </details>
 
-## Behind the code
+<a name="about"></a>
 
-I enjoy learning by building and understanding what happens after each click. Frontend is my focus; working with backend services helps me connect the whole experience.
+## 🐾 Life beyond components
 
-**Away from code: cats, rock music and a few games of League of Legends.**
+I enjoy learning by building, paying attention to interface details and understanding what happens after each click. **Frontend** is my focus, with the curiosity to connect the whole application.
+
+<p align="center">
+  <img src="./assets/interests/cats-en.svg" width="140" alt="Cats">
+  <img src="./assets/interests/rock.svg" width="140" alt="Rock music">
+  <img src="./assets/interests/league.svg" width="140" alt="League of Legends">
+</p>
+
+- 🐈 **My weakness:** cats.
+- 🎸 **My music:** rock, of course.
+- 🎮 **To unwind:** a few games of League of Legends.
+- 💙 **My favorite color:** midnight blue. You might have noticed.
 
 <img src="./assets/ui/divider.svg" width="100%" height="18" alt="">
 
-## Let's talk about your team
+<a name="contact"></a>
 
-**I'm looking for a frontend or full stack development opportunity.** I want to contribute to useful products, learn from other developers and grow with a team.
+## 🤝 Shall we build something together?
+
+**🌱 I'm looking for my next frontend or full stack team.** I want to contribute to useful products, learn from other developers and grow with a team. If my profile fits what you're building, let's talk. ✉️
 
 <p align="center">
   <a href="mailto:aayuquina4220@uta.edu.ec"><img src="./assets/ui/contact-en.svg" width="152" height="40" alt="Email me"></a>
@@ -93,4 +121,8 @@ I enjoy learning by building and understanding what happens after each click. Fr
 <p align="center">
   <a href="mailto:aayuquina4220@uta.edu.ec">aayuquina4220@uta.edu.ec</a><br>
   <sub><a href="./README.md" lang="es">Leer en español</a> &nbsp;·&nbsp; <strong>English</strong></sub>
+</p>
+
+<p align="center">
+  <sub>💙 Thanks for stopping by. A little code, a little rock and a cat or two. 🐾</sub>
 </p>

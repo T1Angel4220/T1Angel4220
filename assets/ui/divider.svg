@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="18" viewBox="0 0 1200 18" role="img" aria-labelledby="title"><title id="title"></title><defs><linearGradient id="line"><stop stop-color="#3b6a9f" stop-opacity="0"/><stop offset=".48" stop-color="#4d84be"/><stop offset=".52" stop-color="#4d84be"/><stop offset="1" stop-color="#3b6a9f" stop-opacity="0"/></linearGradient></defs><path d="M0 9h1200" stroke="url(#line)"/><path d="m588 9 12-5 12 5-12 5Z" fill="#70b4fc"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="76" viewBox="0 0 1200 76" role="img" aria-labelledby="title">
+<title id="title"></title>
+<defs><linearGradient id="wave"><stop stop-color="#3b73bb" stop-opacity="0"/><stop offset=".24" stop-color="#3b73bb" stop-opacity=".55"/><stop offset=".76" stop-color="#65c9e3" stop-opacity=".55"/><stop offset="1" stop-color="#65c9e3" stop-opacity="0"/></linearGradient></defs>
+<style>.flow{stroke-dasharray:5 18;animation:flow 12s linear infinite}@keyframes flow{to{stroke-dashoffset:-184}}@media(prefers-reduced-motion:reduce){.flow{animation:none}}</style>
+<path d="M0 43C180 4 255 72 430 38S720 6 890 40s215 15 310-6" fill="none" stroke="url(#wave)" stroke-width="1.6"/>
+<path d="M0 34C140 65 280 5 430 32s286 39 450 5 210-16 320 7" fill="none" stroke="url(#wave)" stroke-width="1" opacity=".45"/>
+<path class="flow" d="M0 40h550m100 0h550" stroke="url(#wave)" stroke-width="2" fill="none"/>
+<path d="M580 41V20l11 8q9-4 18 0l11-8v21q0 20-20 20t-20-20Z" fill="#132b44" stroke="#76b7f6" stroke-width="1.4"/>
+<ellipse cx="591" cy="41" rx="2.4" ry="3.6" fill="#6cdec5"/><ellipse cx="609" cy="41" rx="2.4" ry="3.6" fill="#6cdec5"/>
+<path d="m597 49 3 2 3-2m-17-2-12-2m12 7-12 2m40-7 12-2m-12 7 12 2" fill="none" stroke="#76b7f6" stroke-width="1.2" stroke-linecap="round"/>
+</svg>

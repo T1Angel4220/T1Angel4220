@@ -6,12 +6,12 @@ Vistas previas: [escritorio](./previews/perfil-escritorio.png) · [móvil](./pre
 
 ## Estructura
 
-1. Idioma, banner, nombre y orientación profesional.
+1. Idioma, banner, saludo con emojis, orientación profesional y bienvenida animada.
 2. Accesos al portafolio y al correo.
-3. Cuatro proyectos enlazados, con tarjetas ilustradas en azul oscuro.
+3. Navegación rápida y cuatro proyectos enlazados, con tarjetas ilustradas en azul oscuro y movimiento sutil.
 4. Tecnologías, con iconos y texto accesible.
 5. Información ampliable de backend y proyectos complementarios.
-6. Presentación personal y contacto.
+6. Presentación personal con distintivos de gatos, rock y League of Legends, y contacto.
 
 ## Recursos locales
 
@@ -19,10 +19,14 @@ Vistas previas: [escritorio](./previews/perfil-escritorio.png) · [móvil](./pre
 - `assets/projects/`: tarjetas de proyectos, con versiones `-es.svg` y `-en.svg`.
 - `assets/icons/`: iconos de las tecnologías del frontend.
 - `assets/ui/`: botones de contacto, portafolio y separador.
+- `assets/ui/welcome-es.svg` y `welcome-en.svg`: bienvenida con efecto de escritura.
+- `assets/interests/`: distintivos de gatos, rock y League of Legends.
 
 Las tarjetas son portadas gráficas de los proyectos; no son capturas de sus aplicaciones. Cada una contiene un enlace al repositorio y una descripción alternativa en el idioma correspondiente.
 
 Los SVG usan tipografías del sistema y no necesitan paquetes, scripts ni servicios externos de imágenes. Su texto, colores e iconos se pueden editar directamente en los archivos. Al cambiar un proyecto, hay que actualizar sus dos tarjetas y los enlaces y descripciones alternativas de ambos README.
+
+La bienvenida, las luces de las tarjetas y el separador usan animaciones CSS dentro de los SVG. Respetan `prefers-reduced-motion`: cuando el visitante solicita reducir el movimiento, el texto queda visible y los efectos se detienen. El banner original es estático y se conserva como archivo independiente.
 
 ## Presentación en GitHub
 

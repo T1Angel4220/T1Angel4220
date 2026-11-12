@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="88" viewBox="0 0 680 88" role="img" aria-labelledby="title">
+<title id="title">Dando vida a ideas, un clic a la vez.</title>
+<defs>
+  <linearGradient id="border"><stop stop-color="#2e6098"/><stop offset=".5" stop-color="#5fbbdf"/><stop offset="1" stop-color="#29496e"/></linearGradient>
+  <clipPath id="typing"><rect class="typed-window" x="64" y="12" width="570" height="64"/></clipPath>
+</defs>
+<style>
+  .typed-window { animation: type-line 9s steps(36,end) infinite; }
+  .type-cursor { animation: cursor-travel 9s steps(36,end) infinite, blink .8s steps(2,start) infinite; }
+  @keyframes type-line { 0%,22% { width:570px } 44%,52% { width:0 } 82%,100% { width:570px } }
+  @keyframes cursor-travel { 0%,22% { transform:translateX(570px) } 44%,52% { transform:translateX(0) } 82%,100% { transform:translateX(570px) } }
+  @keyframes blink { to { opacity:0 } }
+  @media (prefers-reduced-motion:reduce) { .typed-window,.type-cursor { animation:none } .type-cursor { display:none } }
+</style>
+<rect x="1" y="1" width="678" height="86" rx="20" fill="#0e1c32" stroke="url(#border)" stroke-width="1.5"/>
+<path d="m30 30 4 10 10 4-10 4-4 10-4-10-10-4 10-4Z" fill="#78c7fb"/>
+<g clip-path="url(#typing)"><text x="64" y="53" fill="#b8e1ff" font-family="Consolas, Menlo, monospace" font-size="26" textLength="558" lengthAdjust="spacingAndGlyphs">Dando vida a ideas, un clic a la vez.</text></g>
+<rect class="type-cursor" x="64" y="28" width="3" height="31" rx="1" fill="#69dbbd"/>
+</svg>

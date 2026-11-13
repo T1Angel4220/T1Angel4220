@@ -1,52 +1,46 @@
 # Diseño del perfil
 
-Los archivos [README.md](../README.md) y [README.en.md](../README.en.md) presentan las mismas secciones en español e inglés. La composición adapta la propuesta `perfil-v2/` que proporcionó el usuario.
+Los archivos [README.md](../README.md) y [README.en.md](../README.en.md) comparten estructura y recursos equivalentes en español e inglés. La versión actual publica el diseño `v3` preparado por el usuario, con una cabecera integrada en azul oscuro.
 
-Vistas previas: [escritorio](./previews/perfil-escritorio.png) · [móvil](./previews/perfil-movil.png). Se generan a partir del HTML del renderizador de GitHub y una hoja de estilos de aproximación; GitHub determina el ancho, el tema y la tipografía finales.
+Vistas previas: [escritorio](./previews/perfil-escritorio.png) · [móvil](./previews/perfil-movil.png). Se generan a partir del HTML del renderizador de GitHub y una hoja de estilos de aproximación.
 
-## Composición actual
+## Composición
 
-1. Idioma y habitación ilustrada animada.
-2. Presentación gráfica con nombre, especialidad, disponibilidad y ventana de código.
-3. Estudios, ubicación, portafolio, contacto y navegación interna.
-4. EventConnect, HospitalApp, Sistema de Ventas y LUPSI ChatOps, enlazados al código.
-5. Stack con chips de tecnologías por categorías e integraciones de IA.
-6. Actividad pública automática, intereses y contacto.
+1. Selector de idioma, habitación animada, nombre, disponibilidad y terminal.
+2. Portafolio, contacto y navegación interna.
+3. EventConnect, HospitalApp, Sistema de Ventas y LUPSI ChatOps, enlazados al código.
+4. Stack por categorías: frontend, backend, móvil, datos, despliegue e integraciones de IA.
+5. Actividad pública automática.
+6. Presentación personal con tarjetas de gatos y rock.
+7. Contacto mediante `ayuquinaangel4220@gmail.com`.
 
-El [análisis de AgenteTelegram](./analisis-agente-telegram.md) explica la sustitución de Mantenimiento y qué capacidades respalda el código.
+El párrafo adicional de LUPSI y la lista de proyectos complementarios se retiraron por petición del usuario. LUPSI permanece como uno de los cuatro proyectos destacados. También se retiró la tarjeta de League of Legends y se redistribuyeron las dos tarjetas de intereses restantes.
 
-## Recursos gráficos
+## Cabecera y terminal
 
-- `assets/v2/es/` y `assets/v2/en/`: adaptación bilingüe del diseño de referencia.
-- `assets/v2/shared/`: separador compartido.
-- `assets/projects/`: tarjetas de los proyectos.
-- `assets/screens/`: capturas de aplicaciones y vista de Telegram proveniente de su repositorio.
-- `assets/profile-header.png`: imagen original, conservada como alternativa estática.
-- `assets/profile-header.svg`: SVG original del usuario, conservado como fuente.
-- `assets/banner-animado.svg`: versión animada del banner.
+Los archivos `assets/v3/es/hero.svg`, `hero-mobile.svg` y sus equivalentes ingleses combinan la ilustración y la presentación. El README selecciona la versión móvil mediante `picture`.
 
-La carpeta `perfil-v2/` y el archivo RAR originales se conservan como materiales del usuario y no se publican con estos cambios.
+La terminal muestra:
 
-## Adaptación móvil y movimiento
+- `T1Angel4220: ~/perfil` en español y `T1Angel4220: ~/profile` en inglés.
+- `whoami`: Angel Ayuquina - Ingeniero en Software / Software Engineer, según la petición del usuario.
+- `cat focus.txt`: Frontend + Full Stack, con React, TypeScript, APIs y datos. La versión móvil usa una frase más corta.
+- Disponibilidad para roles junior en frontend o full stack.
 
-La introducción, los títulos, el stack, los intereses y el cierre tienen variantes móviles seleccionadas mediante `picture`. El texto se vuelve a componer y los grupos se apilan en lugar de reducir una lámina de escritorio completa.
+Las máscaras del efecto de escritura están ajustadas a las nuevas cadenas. Se verificó que las frases completas caben en la terminal en ambos tamaños e idiomas.
 
-Los proyectos usan tarjetas de 420 píxeles de ancho: dos columnas cuando hay espacio y una columna en pantallas estrechas. Las cuatro tarjetas comparten proporciones. Las tecnologías mantienen Angular expresamente asociado a cursos y práctica personal.
+## Recursos y movimiento
 
-Las animaciones nuevas de la introducción se implementan con CSS. El README selecciona además variantes estáticas explícitas de la presentación cuando se solicita `prefers-reduced-motion`. Las animaciones SMIL del ejemplo se retiraron durante la adaptación. El banner conserva sus movimientos de gatos, colas, luces y reflejos; el README selecciona su PNG original cuando se solicita movimiento reducido.
+`assets/v3/` contiene las cabeceras, el stack con iconos, los botones, la presentación personal y el cierre. El stack también dispone de una variante móvil. Las animaciones CSS incluyen reglas de movimiento reducido.
 
-Los SVG no usan scripts ni descargas externas. Los recursos informativos incluyen textos alternativos y las secciones conservan encabezados HTML y navegación mediante anclas.
+Las tarjetas de proyectos conservan un ancho de 420 píxeles: se distribuyen en dos columnas cuando hay espacio y se apilan en pantallas estrechas. Las imágenes de los proyectos y sus procedencias se documentan en [tecnologías y capturas](./tecnologias-y-capturas.md) y en el [análisis de AgenteTelegram](./analisis-agente-telegram.md).
 
-## Procedencia de las vistas
+Los recursos originales del banner y las versiones anteriores se conservan. La carpeta de referencia `perfil-v2/` permanece local y no se incluye en esta publicación. El README no requiere paquetes npm.
 
-Las capturas de EventConnect, HospitalApp y Sistema de Ventas se obtuvieron ejecutando sus frontends públicos localmente, sin iniciar sesión ni modificar sus interfaces. La tarjeta de LUPSI usa una vista incluida por el autor en AgenteTelegram y la identifica de esa manera; no se afirma haber validado una sesión real del bot.
+## Actividad e idioma
 
-Los commits y el alcance de las capturas anteriores se documentan en [tecnologías y capturas](./tecnologias-y-capturas.md). Las imágenes de Mantenimiento se conservan como material de esa revisión, aunque el proyecto deja de estar destacado.
+El [workflow de contribuciones](../.github/workflows/contributions.yml) publica los SVG de actividad en la rama `output` a las 00:17 de Ecuador continental, con opción de ejecución manual. Las acciones están fijadas a commits; los resultados incluyen una regla de movimiento reducido y variantes para temas claro y oscuro.
 
-## Actividad y publicación
-
-El [workflow de contribuciones](../.github/workflows/contributions.yml) publica los SVG de actividad en la rama `output` a las 00:17 de Ecuador continental, con opción de ejecución manual. Las acciones están fijadas a commits y los resultados incluyen una regla de movimiento reducido. El README selecciona el gráfico claro u oscuro mediante `prefers-color-scheme`.
-
-El selector de idioma enlaza los dos documentos; no detecta automáticamente el idioma del navegador. No se necesitan paquetes npm para mostrar el perfil.
+El selector de idioma enlaza ambos documentos. No detecta automáticamente el idioma del visitante.
 
 Referencia: [renderizado de Markdown de GitHub](https://github.com/github/markup#github-markup).

@@ -1,8 +1,8 @@
 # Banner del perfil y registro de diseño
 
-El banner actual es la imagen adjunta seleccionada por el usuario. Se copió directamente al repositorio conservando los bytes originales.
+La ilustración del banner es la imagen adjunta seleccionada por el usuario. Se copió directamente al repositorio conservando los bytes originales. El README presenta ahora una variante animada basada en el SVG que proporcionó el usuario; la imagen estática sigue disponible como alternativa de movimiento reducido.
 
-Recurso final: [assets/profile-header.png](../assets/profile-header.png).
+Recursos: [imagen original](../assets/profile-header.png), [SVG original del usuario](../assets/profile-header.svg) y [banner animado](../assets/banner-animado.svg). Los detalles de animación y presentación están en [diseño del perfil](./diseno-perfil.md).
 
 La imagen muestra una habitación con ordenador y libros de programación, pósteres de rock, gatos, detalles de Viego y Teemo y un retrato de un gato alado.
 

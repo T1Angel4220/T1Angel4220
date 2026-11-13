@@ -1,12 +1,12 @@
 # Diseño del perfil
 
-Los archivos [README.md](../README.md) y [README.en.md](../README.en.md) comparten estructura y recursos equivalentes en español e inglés. La versión actual publica el diseño `v3` preparado por el usuario, con una cabecera integrada en azul oscuro.
+El [README.md](../README.md) muestra el perfil únicamente en inglés. [README.en.md](../README.en.md) conserva una copia inglesa compatible con enlaces anteriores. La versión española completa está preservada en [README.es.md](../README.es.md), sin selectores ni enlaces visibles desde el perfil principal. Los recursos españoles también se conservan. El diseño actual es `v3`, con una cabecera integrada en azul oscuro.
 
 Vistas previas: [escritorio](./previews/perfil-escritorio.png) · [móvil](./previews/perfil-movil.png). Se generan a partir del HTML del renderizador de GitHub y una hoja de estilos de aproximación.
 
 ## Composición
 
-1. Selector de idioma, habitación animada, nombre, disponibilidad y terminal.
+1. Habitación animada, nombre, disponibilidad y terminal en inglés.
 2. Portafolio, contacto y navegación interna.
 3. Gestión de Eventos, Gestión Hospitalaria, Sistema de Ventas y LUPSI ChatOps, enlazados a los repositorios originales.
 4. Stack por categorías: frontend, backend, móvil, datos, despliegue e integraciones de IA.
@@ -41,7 +41,7 @@ Los recursos originales del banner y las versiones anteriores se conservan. La c
 
 El [workflow de contribuciones](../.github/workflows/contributions.yml) publica los SVG de actividad en la rama `output` a las 00:17 de Ecuador continental, con opción de ejecución manual. Las acciones están fijadas a commits; los resultados incluyen una regla de movimiento reducido y variantes para temas claro y oscuro.
 
-El selector de idioma enlaza `README.md` y `README.en.md`. Cada botón abre la versión completa del idioma elegido en GitHub. No hay un bloque de inglés al final del documento ni desplazamiento entre traducciones. GitHub no permite reemplazar dinámicamente el README del perfil: cada idioma se presenta como un archivo separado.
+El perfil principal no muestra un selector de idioma ni un bloque desplegable. La versión española se conserva en `README.es.md` y puede abrirse directamente desde los archivos del repositorio; queda fuera de la presentación principal, según la preferencia del usuario.
 
 El botón de portafolio apunta a [angel-portafolio-eight.vercel.app](https://angel-portafolio-eight.vercel.app/).
 

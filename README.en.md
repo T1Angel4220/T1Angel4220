@@ -1,9 +1,5 @@
 <a name="top"></a>
 
-<p align="right">
-  🌐 <a href="./README.md" lang="es">Español</a> &nbsp;·&nbsp; <strong>English</strong>
-</p>
-
 <p align="center">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/v3/en/hero-mobile.svg">
@@ -102,5 +98,5 @@ I am looking for a **junior frontend or full stack** opportunity where I can con
 <img src="./assets/v3/en/footer.svg" width="100%" alt="Thanks for stopping by. A bit of code, a bit of rock and a few cats.">
 
 <p align="center">
-  <sub><a href="./README.md" lang="es">Leer en español</a> &nbsp;·&nbsp; <a href="#top">↑ Back to top</a></sub>
+  <sub><a href="#top">↑ Back to top</a></sub>
 </p>

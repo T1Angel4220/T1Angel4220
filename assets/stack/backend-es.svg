@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="278" viewBox="0 0 640 278" role="img" aria-labelledby="title desc">
+<title id="title">APIs y backend</title><desc id="desc">Node.js · Express · NestJS. PHP · Laravel · Java · Spring Boot. Python · Flask · REST · JWT · gRPC.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1c31"/><stop offset="1" stop-color="#18324d"/></linearGradient></defs>
+<rect x="1" y="1" width="638" height="260" rx="22" fill="url(#bg)" stroke="#315476"/>
+<rect x="1" y="32" width="4" height="42" rx="2" fill="#88d7c0"/>
+<text x="28" y="63" font-family="'Segoe UI Emoji','Apple Color Emoji',sans-serif" font-size="35">⚙️</text>
+<text x="82" y="61" fill="#eef7ff" font-family="Arial,sans-serif" font-size="30" font-weight="700">APIs y backend</text>
+<path d="M28 84H610" stroke="#315476"/>
+<circle cx="32" cy="117" r="3" fill="#88d7c0"/><text x="47" y="125" fill="#e6f2ff" font-family="Arial,sans-serif" font-size="24">Node.js · Express · NestJS</text>
+<circle cx="32" cy="160" r="3" fill="#88d7c0"/><text x="47" y="168" fill="#bcd0e7" font-family="Arial,sans-serif" font-size="24">PHP · Laravel · Java · Spring Boot</text>
+<circle cx="32" cy="203" r="3" fill="#88d7c0"/><text x="47" y="211" fill="#bcd0e7" font-family="Arial,sans-serif" font-size="24">Python · Flask · REST · JWT · gRPC</text>
+</svg>

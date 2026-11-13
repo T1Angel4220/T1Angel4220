@@ -43,6 +43,8 @@
 
 ## ✨ Lo que aporto a un equipo
 
+Construyo interfaces, conecto servicios y llevo las aplicaciones hasta su publicación en la web. ☁️
+
 <p align="center">
   <img src="./assets/features/components-es.svg" width="280" alt="Componentes reutilizables con React y TypeScript.">
   <img src="./assets/features/interfaces-es.svg" width="280" alt="Interfaces claras, formularios y diseño adaptable.">
@@ -53,7 +55,7 @@
 
 ## 🚀 Proyectos, del código a la pantalla
 
-Una selección de mis **proyectos académicos y personales**. Las dos primeras tarjetas muestran pantallas reales de sus aplicaciones; puedes explorar el código o abrir las capturas completas. 👇
+Una selección de mis **proyectos académicos y personales**. Las cuatro tarjetas muestran pantallas reales de sus aplicaciones; puedes explorar el código o abrir las capturas completas. 👇
 
 <p align="center">
   <a href="https://github.com/T1Angel4220/eventconnect"><img src="./assets/projects/eventconnect-es.svg" width="420" alt="EventConnect: captura real de su acceso, con temas claro y oscuro. React y TypeScript. Explorar código."></a>
@@ -65,8 +67,12 @@ Una selección de mis **proyectos académicos y personales**. Las dos primeras t
 </p>
 
 <p align="center">
-  <a href="https://github.com/T1Angel4220/SistemaVentas"><img src="./assets/projects/sales-es.svg" width="420" alt="Sistema de Ventas: catálogo, publicaciones y roles con React y TypeScript. Explorar código."></a>
-  <a href="https://github.com/T1Angel4220/Sistema_Mantenimiento"><img src="./assets/projects/maintenance-es.svg" width="420" alt="Mantenimiento: equipos, mantenimientos y reportes con React y Laravel. Explorar código."></a>
+  <a href="https://github.com/T1Angel4220/SistemaVentas"><img src="./assets/projects/sales-es.svg" width="420" alt="Sistema de Ventas: captura real de su acceso. React, TypeScript y PostgreSQL. Explorar código."></a>
+  <a href="https://github.com/T1Angel4220/Sistema_Mantenimiento"><img src="./assets/projects/maintenance-es.svg" width="420" alt="Mantenimiento: captura real de su acceso. React, Laravel y Tailwind. Explorar código."></a>
+</p>
+
+<p align="center">
+  <sub>📸 Capturas completas: <a href="./assets/screens/sales.png">Sistema de Ventas</a> · <a href="./assets/screens/sales-home.png">Ventas — inicio</a> · <a href="./assets/screens/maintenance.png">Mantenimiento</a></sub>
 </p>
 
 <p align="center">
@@ -79,34 +85,39 @@ Una selección de mis **proyectos académicos y personales**. Las dos primeras t
 
 <a name="stack"></a>
 
-## 🛠️ Con qué construyo
+## 🛠️ Mi stack, de la interfaz al despliegue
+
+Mi foco es **frontend**, con experiencia práctica conectando aplicaciones web y móviles con APIs, bases de datos y servicios en la nube.
 
 <p align="center">
-  <img src="./assets/icons/react.svg" width="44" height="44" alt="React" title="React">
-  <img src="./assets/icons/typescript.svg" width="44" height="44" alt="TypeScript" title="TypeScript">
-  <img src="./assets/icons/javascript.svg" width="44" height="44" alt="JavaScript" title="JavaScript">
-  <img src="./assets/icons/html.svg" width="44" height="44" alt="HTML" title="HTML">
-  <img src="./assets/icons/css.svg" width="44" height="44" alt="CSS" title="CSS">
-  <img src="./assets/icons/tailwind.svg" width="44" height="44" alt="Tailwind CSS" title="Tailwind CSS">
-  <img src="./assets/icons/vite.svg" width="44" height="44" alt="Vite" title="Vite">
+  <img src="./assets/stack/frontend-es.svg" width="420" alt="Frontend web: React, TypeScript, JavaScript, HTML, CSS, Tailwind y Vite. Angular: formación y práctica personal.">
+  <img src="./assets/stack/interface-es.svg" width="420" alt="Interfaces e interacción: React Router · Zustand · Context API · Material UI · Radix UI · Framer Motion · React Hook Form · Zod · Recharts">
 </p>
 
-- **🎨 Interfaz:** React · TypeScript · JavaScript · HTML · CSS · Tailwind CSS · Vite.
-- **🔄 Estado y navegación:** React Router · Context API · Zustand.
-- **🔌 Integración:** APIs REST, autenticación y permisos según el rol del usuario.
+<p align="center">
+  <img src="./assets/stack/backend-es.svg" width="420" alt="APIs y backend: Node.js · Express · NestJS · PHP · Laravel · Java · Spring Boot · Python · Flask · REST · JWT · gRPC">
+  <img src="./assets/stack/data-es.svg" width="420" alt="Bases de datos: PostgreSQL · MySQL · MongoDB · Supabase · SQL · Integración y persistencia">
+</p>
+
+<p align="center">
+  <img src="./assets/stack/mobile-es.svg" width="420" alt="Desarrollo móvil: React Native · Expo · TypeScript · Expo Router · React Navigation · AsyncStorage · Notificaciones">
+  <img src="./assets/stack/cloud-es.svg" width="420" alt="Cloud y despliegue: Microsoft Azure · Docker · Nginx · GitHub Pages · GitHub Actions · Git · Linux · Variables de entorno">
+</p>
+
+> ☁️ **También llevo proyectos a la web:** preparo builds, configuro variables de entorno y conecto frontend, APIs y bases de datos para publicar aplicaciones. Trabajo con **Azure, Docker y Nginx**, y con **GitHub Pages** para sitios estáticos.
 
 <details>
-<summary><strong>🧩 Backend, móvil y otros proyectos</strong></summary>
+<summary><strong>🧩 Más proyectos donde aplico este stack</strong></summary>
 
-- **⚙️ Backend:** Node.js · Express · PHP · Laravel.
-- **🗄️ Datos:** PostgreSQL · MySQL.
-- **🔧 Herramientas:** Git · GitHub · Docker.
+**📱 [EventConnect Mobile](https://github.com/T1Angel4220/eventconnect-movil)** — React Native, Expo y TypeScript para descubrir eventos, gestionar inscripciones y recibir notificaciones.
 
-**📱 [EventConnect Mobile](https://github.com/T1Angel4220/eventconnect-movil)** — React Native, Expo y TypeScript para descubrir eventos y gestionar inscripciones.
+**🤖 [Agente Telegram](https://github.com/T1Angel4220/AgenteTelegram)** — NestJS, TypeScript y Supabase para integrar Telegram, GitHub y Trello.
 
-**🤖 [Agente Telegram](https://github.com/T1Angel4220/AgenteTelegram)** — NestJS y TypeScript para integrar Telegram, GitHub y Trello.
+**⛽ [Combustible SKT](https://github.com/T1Angel4220/Combustible-SKT)** — Microservicios con Java, Spring Boot, gRPC, MongoDB, PostgreSQL y Docker.
 
-**⛽ [Combustible SKT](https://github.com/T1Angel4220/Combustible-SKT)** — Microservicios con Java, Spring Boot, gRPC y Docker.
+**🐍 [Mensajes y videollamadas](https://github.com/T1Angel4220/Mensajes_VideoLlamada)** — Python, Flask, JavaScript y WebRTC.
+
+**🖥️ [Calculadora de aproximación](https://github.com/T1Angel4220/CalculadoraAproximacion)** — Python, PySide6, NumPy y Matplotlib.
 
 </details>
 

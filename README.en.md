@@ -43,6 +43,8 @@
 
 ## ✨ What I bring to a team
 
+I build interfaces, connect services and take applications all the way to deployment on the web. ☁️
+
 <p align="center">
   <img src="./assets/features/components-en.svg" width="280" alt="Reusable components with React and TypeScript.">
   <img src="./assets/features/interfaces-en.svg" width="280" alt="Clear interfaces, forms and responsive layouts.">
@@ -53,7 +55,7 @@
 
 ## 🚀 Projects, from code to screen
 
-A selection of my **academic and personal projects**. The first two cards show actual application screens; explore the code or open the full-size captures below. 👇
+A selection of my **academic and personal projects**. All four cards show actual application screens; explore the code or open the full-size captures below. 👇
 
 <p align="center">
   <a href="https://github.com/T1Angel4220/eventconnect"><img src="./assets/projects/eventconnect-en.svg" width="420" alt="EventConnect: actual login interface with light and dark themes. React and TypeScript. Explore code."></a>
@@ -65,8 +67,12 @@ A selection of my **academic and personal projects**. The first two cards show a
 </p>
 
 <p align="center">
-  <a href="https://github.com/T1Angel4220/SistemaVentas"><img src="./assets/projects/sales-en.svg" width="420" alt="Sales Platform: catalog, listings and roles built with React and TypeScript. Explore code."></a>
-  <a href="https://github.com/T1Angel4220/Sistema_Mantenimiento"><img src="./assets/projects/maintenance-en.svg" width="420" alt="Maintenance: equipment, maintenance and reports built with React and Laravel. Explore code."></a>
+  <a href="https://github.com/T1Angel4220/SistemaVentas"><img src="./assets/projects/sales-en.svg" width="420" alt="Sales Platform: actual login interface. React, TypeScript and PostgreSQL. Explore code."></a>
+  <a href="https://github.com/T1Angel4220/Sistema_Mantenimiento"><img src="./assets/projects/maintenance-en.svg" width="420" alt="Maintenance: actual login interface. React, Laravel and Tailwind. Explore code."></a>
+</p>
+
+<p align="center">
+  <sub>📸 Full-size captures: <a href="./assets/screens/sales.png">Sales Platform</a> · <a href="./assets/screens/sales-home.png">Sales — home</a> · <a href="./assets/screens/maintenance.png">Maintenance</a></sub>
 </p>
 
 <p align="center">
@@ -79,34 +85,39 @@ A selection of my **academic and personal projects**. The first two cards show a
 
 <a name="stack"></a>
 
-## 🛠️ What I build with
+## 🛠️ My stack, from interface to deployment
+
+My focus is **frontend**, with practical experience connecting web and mobile apps to APIs, databases and cloud services.
 
 <p align="center">
-  <img src="./assets/icons/react.svg" width="44" height="44" alt="React" title="React">
-  <img src="./assets/icons/typescript.svg" width="44" height="44" alt="TypeScript" title="TypeScript">
-  <img src="./assets/icons/javascript.svg" width="44" height="44" alt="JavaScript" title="JavaScript">
-  <img src="./assets/icons/html.svg" width="44" height="44" alt="HTML" title="HTML">
-  <img src="./assets/icons/css.svg" width="44" height="44" alt="CSS" title="CSS">
-  <img src="./assets/icons/tailwind.svg" width="44" height="44" alt="Tailwind CSS" title="Tailwind CSS">
-  <img src="./assets/icons/vite.svg" width="44" height="44" alt="Vite" title="Vite">
+  <img src="./assets/stack/frontend-en.svg" width="420" alt="Web frontend: React, TypeScript, JavaScript, HTML, CSS, Tailwind and Vite. Angular: coursework and personal practice.">
+  <img src="./assets/stack/interface-en.svg" width="420" alt="Interfaces and interaction: React Router · Zustand · Context API · Material UI · Radix UI · Framer Motion · React Hook Form · Zod · Recharts">
 </p>
 
-- **🎨 Interface:** React · TypeScript · JavaScript · HTML · CSS · Tailwind CSS · Vite.
-- **🔄 State and routing:** React Router · Context API · Zustand.
-- **🔌 Integration:** REST APIs, authentication and role-based user permissions.
+<p align="center">
+  <img src="./assets/stack/backend-en.svg" width="420" alt="APIs and backend: Node.js · Express · NestJS · PHP · Laravel · Java · Spring Boot · Python · Flask · REST · JWT · gRPC">
+  <img src="./assets/stack/data-en.svg" width="420" alt="Databases: PostgreSQL · MySQL · MongoDB · Supabase · SQL · Integration and persistence">
+</p>
+
+<p align="center">
+  <img src="./assets/stack/mobile-en.svg" width="420" alt="Mobile development: React Native · Expo · TypeScript · Expo Router · React Navigation · AsyncStorage · Notifications">
+  <img src="./assets/stack/cloud-en.svg" width="420" alt="Cloud and deployment: Microsoft Azure · Docker · Nginx · GitHub Pages · GitHub Actions · Git · Linux · Environment variables">
+</p>
+
+> ☁️ **I also take projects online:** I prepare builds, configure environment variables and connect frontends, APIs and databases to publish applications. I work with **Azure, Docker and Nginx**, and **GitHub Pages** for static sites.
 
 <details>
-<summary><strong>🧩 Backend, mobile and other projects</strong></summary>
+<summary><strong>🧩 More projects using this stack</strong></summary>
 
-- **⚙️ Backend:** Node.js · Express · PHP · Laravel.
-- **🗄️ Data:** PostgreSQL · MySQL.
-- **🔧 Tools:** Git · GitHub · Docker.
+**📱 [EventConnect Mobile](https://github.com/T1Angel4220/eventconnect-movil)** — React Native, Expo and TypeScript for discovering events, managing registrations and receiving notifications.
 
-**📱 [EventConnect Mobile](https://github.com/T1Angel4220/eventconnect-movil)** — React Native, Expo and TypeScript for discovering events and managing registrations.
+**🤖 [Agente Telegram](https://github.com/T1Angel4220/AgenteTelegram)** — NestJS, TypeScript and Supabase connecting Telegram, GitHub and Trello.
 
-**🤖 [Agente Telegram](https://github.com/T1Angel4220/AgenteTelegram)** — NestJS and TypeScript connecting Telegram, GitHub and Trello.
+**⛽ [Combustible SKT](https://github.com/T1Angel4220/Combustible-SKT)** — Microservices with Java, Spring Boot, gRPC, MongoDB, PostgreSQL and Docker.
 
-**⛽ [Combustible SKT](https://github.com/T1Angel4220/Combustible-SKT)** — Microservices with Java, Spring Boot, gRPC and Docker.
+**🐍 [Messaging and video calls](https://github.com/T1Angel4220/Mensajes_VideoLlamada)** — Python, Flask, JavaScript and WebRTC.
+
+**🖥️ [Approximation calculator](https://github.com/T1Angel4220/CalculadoraAproximacion)** — Python, PySide6, NumPy and Matplotlib.
 
 </details>
 

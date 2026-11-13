@@ -9,8 +9,8 @@ Vistas previas: [escritorio](./previews/perfil-escritorio.png) · [móvil](./pre
 1. Selector de idioma, habitación animada, nombre, especialidad y disponibilidad.
 2. Accesos al portafolio y al correo, y navegación interna.
 3. Tres tarjetas de capacidades: componentes, interfaces e integración.
-4. Cuatro proyectos enlazados; los dos primeros muestran interfaces reales.
-5. Stack frontend e información ampliable de backend y otros proyectos.
+4. Cuatro proyectos enlazados, todos con capturas reales.
+5. Seis tarjetas de tecnologías: frontend, interfaces, backend, datos, móvil y cloud; otros proyectos en un bloque ampliable.
 6. Actividad pública de GitHub con una animación de contribuciones.
 7. Gatos, rock y League of Legends, bienvenida con efecto de escritura y contacto.
 
@@ -26,24 +26,29 @@ El elemento `picture` de ambos README selecciona explícitamente el PNG cuando e
 
 ## Capturas reales de proyectos
 
-Las primeras dos tarjetas incluyen capturas de los frontends públicos ejecutados localmente. Son las pantallas de acceso: no implican una prueba completa del backend ni del producto. No se iniciaron sesiones ni se modificaron las interfaces para producir las capturas.
+Las cuatro tarjetas incluyen capturas de los frontends públicos ejecutados localmente. Son las pantallas de acceso: no implican una prueba completa del backend ni del producto. No se iniciaron sesiones ni se modificaron las interfaces para producir las capturas.
 
 | Proyecto | Fuente capturada | Pantalla |
 | --- | --- | --- |
 | EventConnect | `develop`, commit `4694884334b3ee9f36c4c2168f29f12036f4609c` | Acceso en temas claro y oscuro, mediante el selector nativo de la aplicación. |
 | HospitalApp | `release/1.0.0`, commit `c1814be5c695bdf94913033bb142c71044b56b90` | Acceso de la aplicación. Las credenciales de demostración visibles pertenecen a su interfaz pública. |
+| Sistema de Ventas | `develop`, commit `c235082c546747b4fab5b03727c3f573e6421768` | Acceso de la aplicación. |
+| Mantenimiento | `main`, commit `ce947d149b47abdb23c90e9aca29adc7a90c697a` | Acceso de la aplicación. |
 
-Las imágenes completas están en [assets/screens](../assets/screens). Las tarjetas de EventConnect alternan las capturas de sus dos temas con una transición CSS. Las tarjetas de Sistema de Ventas y Mantenimiento conservan sus portadas ilustradas; no se presentan como capturas.
+Las imágenes completas están en [assets/screens](../assets/screens). Las tarjetas de EventConnect alternan las capturas de sus dos temas con una transición CSS. Las cuatro tarjetas comparten proporciones y composición.
 
 ## Recursos y adaptación
 
 - `assets/features/`: tres capacidades con variantes en español e inglés.
 - `assets/projects/`: cuatro tarjetas por idioma.
+- `assets/stack/`: seis categorías de tecnologías por idioma.
 - `assets/icons/`: iconos de tecnologías.
 - `assets/ui/`: botones, separador y bienvenida.
 - `assets/interests/`: distintivos de gatos, rock y League of Legends.
 
-Las capacidades tienen un ancho de presentación de 280 píxeles; las tarjetas de proyectos, de 420. Se distribuyen en filas cuando hay espacio y se apilan en pantallas estrechas. Las imágenes usan el estilo `max-width: 100%` de GitHub. Los fondos azules oscuros se mantienen legibles con temas claros y oscuros. Cada recurso informativo incluye texto alternativo en el idioma correspondiente.
+Las capacidades tienen un ancho de presentación de 280 píxeles; las tarjetas de proyectos y stack, de 420. Se distribuyen en filas cuando hay espacio y se apilan en pantallas estrechas. Las imágenes usan el estilo `max-width: 100%` de GitHub. Los fondos azules oscuros se mantienen legibles con temas claros y oscuros. Cada recurso informativo incluye texto alternativo en el idioma correspondiente.
+
+La [ampliación del análisis](./tecnologias-y-capturas.md) recoge las fuentes del stack y la distinción entre tecnologías de los repositorios y Angular, que el usuario confirmó como formación y práctica personal.
 
 Los SVG utilizan tipografías del sistema y recursos incrustados. Se editan sin instalar React ni paquetes npm: el README se presenta mediante Markdown y HTML admitidos por GitHub. Al cambiar un proyecto, deben actualizarse las dos versiones de su tarjeta, los enlaces y los textos alternativos.
 

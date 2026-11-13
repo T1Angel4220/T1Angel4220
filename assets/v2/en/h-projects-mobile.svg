@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="144" viewBox="0 0 720 144" role="img" aria-label="Things I've built">
+  <defs>
+    <linearGradient id="ic" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff4fd8" />
+      <stop offset="1" stop-color="#7a4dff" />
+    </linearGradient>
+    <linearGradient id="ln" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff4fd8" />
+      <stop offset="1" stop-color="#7a4dff" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="bgp" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09162f" />
+      <stop offset="1" stop-color="#102345" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="720" height="144" rx="26" fill="url(#bgp)" />
+  <rect x="0.75" y="0.75" width="718.5" height="142.5" rx="25" fill="none" stroke="#ffffff" stroke-opacity=".1" stroke-width="1.5" />
+  <g transform="translate(26,40)">
+    <rect width="64" height="64" rx="19" fill="url(#ic)" />
+    <g transform="translate(8,8)">
+      <path d="M24 4C33 12 35 25 31 37H17C13 25 15 12 24 4Z" fill="#fff" />
+      <circle cx="24" cy="19" r="4.5" fill="#102345" />
+      <path d="M17 29L8 39L17 37Z" fill="#fff" opacity=".85" />
+      <path d="M31 29L40 39L31 37Z" fill="#fff" opacity=".85" />
+      <path d="M20.5 39Q24 47 27.5 39Z" fill="#ffd84d" />
+    </g>
+  </g>
+  <text x="112" y="87" fill="#eef1ff" font-size="38" font-family="Arial,'Segoe UI',sans-serif" font-weight="800">Things I've built</text>
+</svg>

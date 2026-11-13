@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 96" width="1600" height="96" role="img" aria-label="¿Construimos algo juntos?">
+  <defs>
+    <linearGradient id="ic" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6b9d" />
+      <stop offset="1" stop-color="#ff4fd8" />
+    </linearGradient>
+    <linearGradient id="ln" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff6b9d" />
+      <stop offset="1" stop-color="#ff4fd8" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="bgp" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09162f" />
+      <stop offset="1" stop-color="#102345" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="96" rx="26" fill="url(#bgp)" />
+  <rect x=".5" y=".5" width="1599" height="95" rx="25.5" fill="none" stroke="#ffffff" stroke-opacity=".09" />
+  <g transform="translate(28,16)">
+    <rect width="64" height="64" rx="19" fill="url(#ic)" />
+    <g transform="translate(8,8)">
+      <rect x="6" y="12" width="36" height="25" rx="5" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      <polyline points="8,16 24,28 40,16" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    </g>
+  </g>
+  <text x="116" y="63" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="42" font-weight="800" fill="#eef1ff">¿Construimos algo juntos?</text>
+  <rect x="702" y="46.5" width="858" height="3" rx="1.5" fill="url(#ln)" opacity=".8" />
+  <circle cy="48" r="5" fill="#ff6b9d" cx="702" />
+</svg>

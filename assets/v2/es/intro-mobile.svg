@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="652" viewBox="0 0 720 652" role="img" aria-label="Angel Ayuquina, Frontend / Full Stack. Disponible para roles junior.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#09162f" />
+      <stop offset="1" stop-color="#152447" />
+    </linearGradient>
+    <linearGradient id="name" x1="0" x2="1">
+      <stop offset="0" stop-color="#7CFF4F" />
+      <stop offset=".55" stop-color="#3fffe8" />
+      <stop offset="1" stop-color="#8a9cff" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="720" height="652" rx="28" fill="url(#bg)" />
+  <rect x="1" y="1" width="718" height="650" rx="27" fill="none" stroke="#34527c" />
+  <text x="40" y="65" fill="#a9bbd8" font-size="27" font-family="Arial,'Segoe UI',sans-serif" font-weight="500">¡Hola! Soy</text>
+  <text x="40" y="139" fill="url(#name)" font-size="58" font-family="Arial,'Segoe UI',sans-serif" font-weight="800">Angel Ayuquina</text>
+  <text x="40" y="197" fill="#3fffe8" font-size="32" font-family="Arial,'Segoe UI',sans-serif" font-weight="700">&gt; Frontend / Full Stack</text>
+  <rect x="40" y="226" width="640" height="58" rx="29" fill="#142d43" stroke="#2b5c67" />
+  <circle cx="67" cy="255" r="7" fill="#7CFF4F" />
+  <text x="86" y="264" fill="#eef1ff" font-size="27" font-family="Arial,'Segoe UI',sans-serif" font-weight="600">Disponible para roles junior</text>
+  <g class="code-window">
+    <rect x="40" y="321" width="640" height="283" rx="20" fill="#070f22" stroke="#436f91" stroke-width="2" />
+    <circle cx="67" cy="346" r="6" fill="#ff5f57" />
+    <circle cx="89" cy="346" r="6" fill="#febc2e" />
+    <circle cx="111" cy="346" r="6" fill="#28c840" />
+    <text x="650" y="353" fill="#8ba2c1" font-size="20" font-family="Consolas,monospace" font-weight="500" text-anchor="end">angel.ts</text>
+    <path d="M40 369H680" stroke="#24394f" />
+    <text x="65" y="408" fill="#3fffe8" font-size="25" font-family="Consolas,monospace" font-weight="500" xml:space="preserve">const angel = {</text>
+    <text x="65" y="445" fill="#eef1ff" font-size="25" font-family="Consolas,monospace" font-weight="500" xml:space="preserve">  role: "Frontend / Full Stack",</text>
+    <text x="65" y="482" fill="#7CFF4F" font-size="25" font-family="Consolas,monospace" font-weight="500" xml:space="preserve">  stack: ["React", "TypeScript"],</text>
+    <text x="65" y="519" fill="#a2b3ff" font-size="25" font-family="Consolas,monospace" font-weight="500" xml:space="preserve">  openToWork: true,</text>
+    <text x="65" y="556" fill="#eef1ff" font-size="25" font-family="Consolas,monospace" font-weight="500" xml:space="preserve">};</text>
+  </g>
+  <style>.code-window{animation:float 6s ease-in-out infinite}@keyframes float{50%{transform:translateY(-5px)}}@media(prefers-reduced-motion:reduce){.code-window{animation:none}}</style>
+</svg>

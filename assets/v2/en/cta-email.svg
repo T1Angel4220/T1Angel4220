@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 323 104" width="323" height="104" role="img" aria-label="Email me">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff4fd8" />
+      <stop offset="1" stop-color="#7a4dff" />
+    </linearGradient>
+    <clipPath id="bc">
+      <rect width="323" height="104" rx="52.0" />
+    </clipPath>
+    <linearGradient id="sh" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0" />
+      <stop offset=".5" stop-color="#fff" stop-opacity=".55" />
+      <stop offset="1" stop-color="#fff" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="bgp" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09162f" />
+      <stop offset="1" stop-color="#102345" />
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#bc)">
+    <rect width="323" height="104" rx="52.0" fill="url(#bg)" />
+    <rect y="0" width="110" height="104" fill="url(#sh)" transform="skewX(-20)" opacity=".7" />
+  </g>
+  <text x="44" y="62.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Email me</text>
+  <g transform="translate(235,30)" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="0" y="4" width="34" height="26" rx="5" />
+    <polyline points="2,8 17,20 32,8" />
+  </g>
+</svg>

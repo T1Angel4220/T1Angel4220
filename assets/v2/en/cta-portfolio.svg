@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 545 104" width="545" height="104" role="img" aria-label="Explore my portfolio">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7CFF4F" />
+      <stop offset="1" stop-color="#3fffe8" />
+    </linearGradient>
+    <clipPath id="bc">
+      <rect width="545" height="104" rx="52.0" />
+    </clipPath>
+    <linearGradient id="sh" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0" />
+      <stop offset=".5" stop-color="#fff" stop-opacity=".55" />
+      <stop offset="1" stop-color="#fff" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="bgp" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09162f" />
+      <stop offset="1" stop-color="#102345" />
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#bc)">
+    <rect width="545" height="104" rx="52.0" fill="url(#bg)" />
+    <rect y="0" width="110" height="104" fill="url(#sh)" transform="skewX(-20)" opacity=".7" />
+  </g>
+  <text x="44" y="62.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="800" fill="#09162f">Explore my portfolio</text>
+  <g transform="translate(459,36)" stroke="#09162f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <line x1="0" y1="16" x2="28" y2="16" />
+    <polyline points="16,4 28,16 16,28" />
+  </g>
+</svg>

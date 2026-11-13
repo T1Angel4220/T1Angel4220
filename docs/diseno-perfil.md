@@ -1,61 +1,52 @@
-# Diseño del README del perfil
+# Diseño del perfil
 
-Los archivos [README.md](../README.md) y [README.en.md](../README.en.md) comparten estructura y recursos. El selector de idioma enlaza ambos documentos. La presentación está orientada a oportunidades junior de Frontend / Full Stack y conserva los intereses personales del autor.
+Los archivos [README.md](../README.md) y [README.en.md](../README.en.md) presentan las mismas secciones en español e inglés. La composición adapta la propuesta `perfil-v2/` que proporcionó el usuario.
 
-Vistas previas: [escritorio](./previews/perfil-escritorio.png) · [móvil](./previews/perfil-movil.png). Se generan a partir del HTML del renderizador de Markdown de GitHub y una hoja de estilos de aproximación. GitHub determina el fondo, la tipografía y el ancho final de su interfaz.
+Vistas previas: [escritorio](./previews/perfil-escritorio.png) · [móvil](./previews/perfil-movil.png). Se generan a partir del HTML del renderizador de GitHub y una hoja de estilos de aproximación; GitHub determina el ancho, el tema y la tipografía finales.
 
-## Composición
+## Composición actual
 
-1. Selector de idioma, habitación animada, nombre, especialidad y disponibilidad.
-2. Accesos al portafolio y al correo, y navegación interna.
-3. Tres tarjetas de capacidades: componentes, interfaces e integración.
-4. Cuatro proyectos enlazados, todos con capturas reales.
-5. Seis tarjetas de tecnologías: frontend, interfaces, backend, datos, móvil y cloud; otros proyectos en un bloque ampliable.
-6. Actividad pública de GitHub con una animación de contribuciones.
-7. Gatos, rock y League of Legends, bienvenida con efecto de escritura y contacto.
+1. Idioma y habitación ilustrada animada.
+2. Presentación gráfica con nombre, especialidad, disponibilidad y ventana de código.
+3. Estudios, ubicación, portafolio, contacto y navegación interna.
+4. EventConnect, HospitalApp, Sistema de Ventas y LUPSI ChatOps, enlazados al código.
+5. Stack con chips de tecnologías por categorías e integraciones de IA.
+6. Actividad pública automática, intereses y contacto.
 
-## Banner y movimiento
+El [análisis de AgenteTelegram](./analisis-agente-telegram.md) explica la sustitución de Mantenimiento y qué capacidades respalda el código.
 
-- [Imagen original](../assets/profile-header.png): se conserva sin modificar y funciona como alternativa estática.
-- [SVG original del usuario](../assets/profile-header.svg): se conserva como fuente editable.
-- [Banner animado](../assets/banner-animado.svg): variante del SVG con movimientos más suaves y protección adicional para movimiento reducido.
+## Recursos gráficos
 
-La ilustración está incrustada en el SVG; no requiere una descarga externa. Las máscaras y animaciones CSS dan movimiento a la respiración y las colas de los gatos, las luces, los reflejos y otros detalles de la habitación. No se utilizan scripts dentro del SVG. Se comprobó que la animación cambia entre fotogramas al cargarla mediante un elemento `img` normal.
+- `assets/v2/es/` y `assets/v2/en/`: adaptación bilingüe del diseño de referencia.
+- `assets/v2/shared/`: separador compartido.
+- `assets/projects/`: tarjetas de los proyectos.
+- `assets/screens/`: capturas de aplicaciones y vista de Telegram proveniente de su repositorio.
+- `assets/profile-header.png`: imagen original, conservada como alternativa estática.
+- `assets/profile-header.svg`: SVG original del usuario, conservado como fuente.
+- `assets/banner-animado.svg`: versión animada del banner.
 
-El elemento `picture` de ambos README selecciona explícitamente el PNG cuando el navegador indica `prefers-reduced-motion: reduce`. Las animaciones de los demás SVG incluyen reglas para detenerse con esta preferencia. La bienvenida se mantiene fuera del encabezado para distribuir el movimiento entre secciones.
+La carpeta `perfil-v2/` y el archivo RAR originales se conservan como materiales del usuario y no se publican con estos cambios.
 
-## Capturas reales de proyectos
+## Adaptación móvil y movimiento
 
-Las cuatro tarjetas incluyen capturas de los frontends públicos ejecutados localmente. Son las pantallas de acceso: no implican una prueba completa del backend ni del producto. No se iniciaron sesiones ni se modificaron las interfaces para producir las capturas.
+La introducción, los títulos, el stack, los intereses y el cierre tienen variantes móviles seleccionadas mediante `picture`. El texto se vuelve a componer y los grupos se apilan en lugar de reducir una lámina de escritorio completa.
 
-| Proyecto | Fuente capturada | Pantalla |
-| --- | --- | --- |
-| EventConnect | `develop`, commit `4694884334b3ee9f36c4c2168f29f12036f4609c` | Acceso en temas claro y oscuro, mediante el selector nativo de la aplicación. |
-| HospitalApp | `release/1.0.0`, commit `c1814be5c695bdf94913033bb142c71044b56b90` | Acceso de la aplicación. Las credenciales de demostración visibles pertenecen a su interfaz pública. |
-| Sistema de Ventas | `develop`, commit `c235082c546747b4fab5b03727c3f573e6421768` | Acceso de la aplicación. |
-| Mantenimiento | `main`, commit `ce947d149b47abdb23c90e9aca29adc7a90c697a` | Acceso de la aplicación. |
+Los proyectos usan tarjetas de 420 píxeles de ancho: dos columnas cuando hay espacio y una columna en pantallas estrechas. Las cuatro tarjetas comparten proporciones. Las tecnologías mantienen Angular expresamente asociado a cursos y práctica personal.
 
-Las imágenes completas están en [assets/screens](../assets/screens). Las tarjetas de EventConnect alternan las capturas de sus dos temas con una transición CSS. Las cuatro tarjetas comparten proporciones y composición.
+Las animaciones nuevas de la introducción se implementan con CSS. El README selecciona además variantes estáticas explícitas de la presentación cuando se solicita `prefers-reduced-motion`. Las animaciones SMIL del ejemplo se retiraron durante la adaptación. El banner conserva sus movimientos de gatos, colas, luces y reflejos; el README selecciona su PNG original cuando se solicita movimiento reducido.
 
-## Recursos y adaptación
+Los SVG no usan scripts ni descargas externas. Los recursos informativos incluyen textos alternativos y las secciones conservan encabezados HTML y navegación mediante anclas.
 
-- `assets/features/`: tres capacidades con variantes en español e inglés.
-- `assets/projects/`: cuatro tarjetas por idioma.
-- `assets/stack/`: seis categorías de tecnologías por idioma.
-- `assets/icons/`: iconos de tecnologías.
-- `assets/ui/`: botones, separador y bienvenida.
-- `assets/interests/`: distintivos de gatos, rock y League of Legends.
+## Procedencia de las vistas
 
-Las capacidades tienen un ancho de presentación de 280 píxeles; las tarjetas de proyectos y stack, de 420. Se distribuyen en filas cuando hay espacio y se apilan en pantallas estrechas. Las imágenes usan el estilo `max-width: 100%` de GitHub. Los fondos azules oscuros se mantienen legibles con temas claros y oscuros. Cada recurso informativo incluye texto alternativo en el idioma correspondiente.
+Las capturas de EventConnect, HospitalApp y Sistema de Ventas se obtuvieron ejecutando sus frontends públicos localmente, sin iniciar sesión ni modificar sus interfaces. La tarjeta de LUPSI usa una vista incluida por el autor en AgenteTelegram y la identifica de esa manera; no se afirma haber validado una sesión real del bot.
 
-La [ampliación del análisis](./tecnologias-y-capturas.md) recoge las fuentes del stack y la distinción entre tecnologías de los repositorios y Angular, que el usuario confirmó como formación y práctica personal.
+Los commits y el alcance de las capturas anteriores se documentan en [tecnologías y capturas](./tecnologias-y-capturas.md). Las imágenes de Mantenimiento se conservan como material de esa revisión, aunque el proyecto deja de estar destacado.
 
-Los SVG utilizan tipografías del sistema y recursos incrustados. Se editan sin instalar React ni paquetes npm: el README se presenta mediante Markdown y HTML admitidos por GitHub. Al cambiar un proyecto, deben actualizarse las dos versiones de su tarjeta, los enlaces y los textos alternativos.
+## Actividad y publicación
 
-## Actividad automática
+El [workflow de contribuciones](../.github/workflows/contributions.yml) publica los SVG de actividad en la rama `output` a las 00:17 de Ecuador continental, con opción de ejecución manual. Las acciones están fijadas a commits y los resultados incluyen una regla de movimiento reducido. El README selecciona el gráfico claro u oscuro mediante `prefers-color-scheme`.
 
-El [workflow de contribuciones](../.github/workflows/contributions.yml) genera dos SVG con la actividad pública real de la cuenta y los publica en la rama `output`. Se ejecuta diariamente a las 00:17 de Ecuador continental, permite ejecución manual y vuelve a ejecutarse al cambiar el propio workflow en `main`.
-
-Las acciones externas están fijadas a commits. El único permiso de escritura es el necesario para publicar los SVG en este repositorio. Se añade a los resultados una regla de movimiento reducido. El README elige la variante clara u oscura mediante `prefers-color-scheme`.
+El selector de idioma enlaza los dos documentos; no detecta automáticamente el idioma del navegador. No se necesitan paquetes npm para mostrar el perfil.
 
 Referencia: [renderizado de Markdown de GitHub](https://github.com/github/markup#github-markup).

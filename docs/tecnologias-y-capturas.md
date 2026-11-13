@@ -35,4 +35,4 @@ Se consultaron nuevamente los árboles de las ramas predeterminadas y 121 manifi
 
 Los frontends se ejecutan desde copias temporales. Las capturas se obtienen con Chrome y conservan la interfaz original. No se inician sesiones ni se agregan datos ficticios. Mostrar estas pantallas no implica haber validado el backend.
 
-Las cuatro tarjetas de proyectos tienen ahora el mismo formato, con captura real, descripción, tecnologías y enlace al código. El stack se presenta en seis tarjetas por idioma: frontend, interfaces, backend, datos, móvil y cloud. Las tecnologías antes ocultas en un bloque desplegable quedan visibles.
+Esta revisión incorporó capturas de los cuatro proyectos entonces destacados. La selección vigente sustituye Mantenimiento por LUPSI ChatOps y adapta el diseño de la referencia del usuario; se documenta en el [análisis de AgenteTelegram](./analisis-agente-telegram.md). Las tecnologías antes ocultas en un bloque desplegable permanecen visibles.

@@ -2,6 +2,8 @@
 
 Revisión realizada el **12 de noviembre de 2026** sobre los **19 repositorios públicos** de [T1Angel4220](https://github.com/T1Angel4220).
 
+**Actualización del 13 de noviembre:** AgenteTelegram sustituye a Mantenimiento entre los proyectos destacados. La revisión de sus funciones y la adaptación del diseño `perfil-v2` están en el [análisis de AgenteTelegram](./analisis-agente-telegram.md). El inventario siguiente conserva los hallazgos de la revisión inicial.
+
 Se revisaron los metadatos, los árboles de archivos de las ramas predeterminadas, los README y manifiestos disponibles, y archivos de código representativos. Esta revisión sirve para seleccionar y presentar proyectos; no incluye ejecutar las aplicaciones, certificar su funcionamiento ni una auditoría exhaustiva de cada archivo o del historial de Git.
 
 ## Posicionamiento recomendado
@@ -53,11 +55,11 @@ Orden sugerido según tu objetivo:
 1. **eventconnect** — plataforma web con React y TypeScript.
 2. **AD-GestionHospitalaria** — paneles, estado y backend con varios servicios.
 3. **SistemaVentas** — catálogo, roles y moderación.
-4. **Sistema_Mantenimiento** — React con Laravel.
+4. **AgenteTelegram** — asistente de proyectos con NestJS, IA, Telegram, Trello y GitHub.
 5. **eventconnect-movil** — extensión móvil de un producto web.
-6. **AgenteTelegram** — integraciones y servicios con NestJS.
+6. **Combustible-SKT** — microservicios con Java, Spring Boot y gRPC.
 
-Para una candidatura centrada en Java, sustituiría AgenteTelegram por Combustible-SKT. Para una centrada en fundamentos frontend, Tamagochi-en-Python permite explicar manejo del DOM y persistencia local.
+Para una candidatura centrada en Java, daría más prioridad a Combustible-SKT. Para una centrada en fundamentos frontend, Tamagochi-en-Python permite explicar manejo del DOM y persistencia local.
 
 ## Descripciones listas para el campo About de GitHub
 

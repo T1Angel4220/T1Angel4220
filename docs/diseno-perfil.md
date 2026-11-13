@@ -8,7 +8,7 @@ Vistas previas: [escritorio](./previews/perfil-escritorio.png) · [móvil](./pre
 
 1. Selector de idioma, habitación animada, nombre, disponibilidad y terminal.
 2. Portafolio, contacto y navegación interna.
-3. EventConnect, HospitalApp, Sistema de Ventas y LUPSI ChatOps, enlazados al código.
+3. Gestión de Eventos, Gestión Hospitalaria, Sistema de Ventas y LUPSI ChatOps, enlazados a los repositorios originales.
 4. Stack por categorías: frontend, backend, móvil, datos, despliegue e integraciones de IA.
 5. Actividad pública automática.
 6. Presentación personal con tarjetas de gatos y rock.
@@ -41,6 +41,8 @@ Los recursos originales del banner y las versiones anteriores se conservan. La c
 
 El [workflow de contribuciones](../.github/workflows/contributions.yml) publica los SVG de actividad en la rama `output` a las 00:17 de Ecuador continental, con opción de ejecución manual. Las acciones están fijadas a commits; los resultados incluyen una regla de movimiento reducido y variantes para temas claro y oscuro.
 
-El selector de idioma enlaza ambos documentos. No detecta automáticamente el idioma del visitante.
+El selector «English» de `README.md` apunta a una sección inglesa dentro de un elemento nativo `details` del mismo documento. Las anclas de cada idioma son únicas. El enlace «Español» regresa al inicio del perfil; el cambio no requiere JavaScript ni abre la vista de archivos del repositorio. `README.en.md` se conserva como versión independiente y sus enlaces a español regresan al perfil.
+
+El botón de portafolio apunta a [angel-portafolio-eight.vercel.app](https://angel-portafolio-eight.vercel.app/).
 
 Referencia: [renderizado de Markdown de GitHub](https://github.com/github/markup#github-markup).

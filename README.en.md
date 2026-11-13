@@ -1,7 +1,7 @@
 <a name="top"></a>
 
 <p align="right">
-  🌐 <a href="./README.md" lang="es">Español</a> &nbsp;·&nbsp; <strong>English</strong>
+  🌐 <a href="https://github.com/T1Angel4220#user-content-es" lang="es">Español</a> &nbsp;·&nbsp; <strong>English</strong>
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://t1angel4220.github.io/"><img src="./assets/v3/en/cta-portfolio.svg" height="44" alt="Explore my portfolio"></a>
+  <a href="https://angel-portafolio-eight.vercel.app/"><img src="./assets/v3/en/cta-portfolio.svg" height="44" alt="Explore my portfolio"></a>
   &nbsp;
   <a href="#contact"><img src="./assets/v3/en/cta-talk.svg" height="44" alt="Let's talk"></a>
 </p>
@@ -36,8 +36,8 @@ I build web applications end to end with **React and TypeScript**: interface, AP
 A selection of my **academic and personal projects**. Each card links to the code.
 
 <p align="center">
-  <a href="https://github.com/T1Angel4220/eventconnect"><img src="./assets/projects/eventconnect-en.svg" width="420" alt="EventConnect · React, TypeScript, Tailwind"></a>
-  <a href="https://github.com/T1Angel4220/AD-GestionHospitalaria"><img src="./assets/projects/hospitalapp-en.svg" width="420" alt="HospitalApp · React, TypeScript, Zustand"></a>
+  <a href="https://github.com/T1Angel4220/eventconnect"><img src="./assets/projects/eventconnect-en.svg" width="420" alt="Event Management · React, TypeScript, Tailwind"></a>
+  <a href="https://github.com/T1Angel4220/AD-GestionHospitalaria"><img src="./assets/projects/hospitalapp-en.svg" width="420" alt="Hospital Management · React, TypeScript, Zustand"></a>
 </p>
 
 <p align="center">
@@ -102,5 +102,5 @@ I am looking for a **junior frontend or full stack** opportunity where I can con
 <img src="./assets/v3/en/footer.svg" width="100%" alt="Thanks for stopping by. A bit of code, a bit of rock and a few cats.">
 
 <p align="center">
-  <sub><a href="./README.md" lang="es">Leer en español</a> &nbsp;·&nbsp; <a href="#top">↑ Back to top</a></sub>
+  <sub><a href="https://github.com/T1Angel4220#user-content-es" lang="es">Leer en español</a> &nbsp;·&nbsp; <a href="#top">↑ Back to top</a></sub>
 </p>

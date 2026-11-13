@@ -1,7 +1,7 @@
 <a name="top"></a>
 
 <p align="right">
-  🌐 <a href="https://github.com/T1Angel4220#user-content-es" lang="es">Español</a> &nbsp;·&nbsp; <strong>English</strong>
+  🌐 <a href="./README.md" lang="es">Español</a> &nbsp;·&nbsp; <strong>English</strong>
 </p>
 
 <p align="center">
@@ -102,5 +102,5 @@ I am looking for a **junior frontend or full stack** opportunity where I can con
 <img src="./assets/v3/en/footer.svg" width="100%" alt="Thanks for stopping by. A bit of code, a bit of rock and a few cats.">
 
 <p align="center">
-  <sub><a href="https://github.com/T1Angel4220#user-content-es" lang="es">Leer en español</a> &nbsp;·&nbsp; <a href="#top">↑ Back to top</a></sub>
+  <sub><a href="./README.md" lang="es">Leer en español</a> &nbsp;·&nbsp; <a href="#top">↑ Back to top</a></sub>
 </p>

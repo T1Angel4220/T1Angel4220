@@ -41,7 +41,7 @@ Los recursos originales del banner y las versiones anteriores se conservan. La c
 
 El [workflow de contribuciones](../.github/workflows/contributions.yml) publica los SVG de actividad en la rama `output` a las 00:17 de Ecuador continental, con opción de ejecución manual. Las acciones están fijadas a commits; los resultados incluyen una regla de movimiento reducido y variantes para temas claro y oscuro.
 
-El selector «English» de `README.md` apunta a una sección inglesa dentro de un elemento nativo `details` del mismo documento. Las anclas de cada idioma son únicas. El enlace «Español» regresa al inicio del perfil; el cambio no requiere JavaScript ni abre la vista de archivos del repositorio. `README.en.md` se conserva como versión independiente y sus enlaces a español regresan al perfil.
+El selector de idioma enlaza `README.md` y `README.en.md`. Cada botón abre la versión completa del idioma elegido en GitHub. No hay un bloque de inglés al final del documento ni desplazamiento entre traducciones. GitHub no permite reemplazar dinámicamente el README del perfil: cada idioma se presenta como un archivo separado.
 
 El botón de portafolio apunta a [angel-portafolio-eight.vercel.app](https://angel-portafolio-eight.vercel.app/).
 

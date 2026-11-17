@@ -9,7 +9,7 @@ Vistas previas: [escritorio](./previews/perfil-escritorio.png) · [móvil](./pre
 1. Habitación animada, nombre, disponibilidad y terminal en inglés.
 2. Portafolio, contacto y navegación interna.
 3. Gestión de Eventos, Gestión Hospitalaria, Sistema de Ventas y LUPSI ChatOps, enlazados a los repositorios originales.
-4. Stack por categorías: frontend, backend, móvil, datos, despliegue e integraciones de IA.
+4. Stack de 53 tecnologías en ocho categorías: backend y APIs, interfaces web, datos, IA y visión, nube, herramientas y calidad, móvil y escritorio. Se distingue uso principal de conocimientos según las capturas del usuario.
 5. Actividad pública automática.
 6. Presentación personal con tarjetas de gatos y rock.
 7. Contacto mediante `ayuquinaangel4220@gmail.com`.
@@ -24,14 +24,17 @@ La terminal muestra:
 
 - `T1Angel4220: ~/perfil` en español y `T1Angel4220: ~/profile` en inglés.
 - `whoami`: Angel Ayuquina - Ingeniero en Software / Software Engineer, según la petición del usuario.
-- `cat focus.txt`: Frontend + Full Stack, con React, TypeScript, APIs y datos. La versión móvil usa una frase más corta.
-- Disponibilidad para roles junior en frontend o full stack.
+- Presentación profesional: Full Stack Developer.
+- `cat focus.txt`: Full Stack, con interfaces web, APIs, bases de datos y despliegue. La versión móvil usa una frase más corta.
+- Disponibilidad para roles junior en full stack.
 
 Las máscaras del efecto de escritura están ajustadas a las nuevas cadenas. Se verificó que las frases completas caben en la terminal en ambos tamaños e idiomas.
 
 ## Recursos y movimiento
 
 `assets/v3/` contiene las cabeceras, el stack con iconos, los botones, la presentación personal y el cierre. El stack también dispone de una variante móvil. Las animaciones CSS incluyen reglas de movimiento reducido.
+
+Las tecnologías y niveles de uso proceden de las capturas aportadas el 17 de noviembre de 2026. El [catálogo](./technology-usage.md) documenta los 53 elementos, la distinción de uso y la procedencia de los iconos. Los logotipos se incrustan en los SVG; no se utilizan iniciales genéricas para sustituir marcas disponibles.
 
 Las tarjetas de proyectos conservan un ancho de 420 píxeles: se distribuyen en dos columnas cuando hay espacio y se apilan en pantallas estrechas. Las imágenes de los proyectos y sus procedencias se documentan en [tecnologías y capturas](./tecnologias-y-capturas.md) y en el [análisis de AgenteTelegram](./analisis-agente-telegram.md).
 

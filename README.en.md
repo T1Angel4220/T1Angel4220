@@ -3,7 +3,7 @@
 <p align="center">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/v3/en/hero-mobile.svg">
-    <img src="./assets/v3/en/hero.svg" width="100%" alt="Angel Ayuquina, Software Engineer. Frontend and Full Stack focus with React, TypeScript, APIs and data. Available for junior roles. Animated cat-filled programming and rock room.">
+    <img src="./assets/v3/en/hero.svg" width="100%" alt="Angel Ayuquina, Software Engineer. Full Stack Developer building web applications, APIs and databases. Available for junior roles. Animated cat-filled programming and rock room.">
   </picture>
 </p>
 
@@ -21,7 +21,7 @@
   <a href="#contact">Contact</a>
 </p>
 
-I build web applications end to end with **React and TypeScript**: interface, API and database. I am finishing my Software Engineering degree at Universidad Técnica de Ambato (Ecuador) and I am looking for my first **junior frontend or full stack role**.
+I build **full stack applications**, connecting web interfaces, APIs and databases through to deployment. My main tools include **TypeScript, JavaScript, React, Node.js, Express and SQL**. I am finishing my Software Engineering degree at Universidad Técnica de Ambato (Ecuador) and I am looking for my first **junior full stack role**.
 
 <a name="projects"></a>
 
@@ -51,11 +51,11 @@ A selection of my **academic and personal projects**. Each card links to the cod
   <img src="./assets/v3/en/h2.svg" width="100%" alt="My toolbox">
 </h2>
 
-My focus is **frontend**. I connect it to APIs, databases and cloud services, and I also prepare builds, configure environment variables and deploy applications with **Azure, Docker, Nginx and GitHub Pages**.
+My focus is **full stack development**: interfaces, backend services, data and deployment. The toolbox below distinguishes **primary use** from **knowledge**, based on my work and practice. I prepare builds, configure environment variables and publish applications; **Docker** is part of my main workflow, with additional knowledge of **Azure, Render and Vercel**.
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/v3/en/stack-mobile.svg">
-  <img src="./assets/v3/en/stack.svg" width="100%" alt="Stack: React, TypeScript, JavaScript, HTML, CSS, Tailwind and Vite; Angular through courses and practice. Backend: Node.js, Express, NestJS, Laravel, Spring Boot, Flask, Python, Java and PHP. Mobile: React Native and Expo. Data: PostgreSQL, MySQL, MongoDB and Supabase. Deployment: Docker, Nginx, Azure, GitHub Actions, GitHub Pages, Git and Linux. AI and integrations: OpenRouter, NVIDIA NIM, Telegram, Trello and GitHub.">
+  <img src="./assets/v3/en/stack.svg" width="100%" alt="Full stack toolbox. Gold: primary use; blue: knowledge. Backend &amp; APIs: Node.js, Express, NestJS, Spring Boot, .NET, Flask, Laravel, Java, Python, PHP, REST APIs, JWT, gRPC, Telegraf. Web interfaces: React, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Astro, Angular, Vite. Databases: PostgreSQL, MySQL, MongoDB, SQL Server, SQL, Supabase, SQLite. AI, vision &amp; data: scikit-learn, TensorFlow, Keras, TensorBoard, pandas, SciPy, NumPy, Matplotlib, OpenRouter, Pillow. Cloud &amp; deployment: Docker, Azure, Render, Vercel. Tools &amp; quality: Postman, Selenium, GitHub, pytest. Mobile development: React Native, Android Studio, Expo. Desktop interfaces: PySide6, Tkinter.">
 </picture>
 
 <a name="activity"></a>
@@ -80,7 +80,7 @@ My focus is **frontend**. I connect it to APIs, databases and cloud services, an
   <img src="./assets/v3/en/h4.svg" width="100%" alt="Beyond the code">
 </h2>
 
-<img src="./assets/v3/en/about.svg" width="100%" alt="I learn by building and care about interface details. Now: finishing Software Engineering and looking for my first junior role. I like cats and rock music.">
+<img src="./assets/v3/en/about.svg" width="100%" alt="I learn by building complete applications: interfaces, APIs, data and deployment. Now: finishing Software Engineering and looking for my first junior full stack role. I like cats and rock music.">
 
 <a name="contact"></a>
 
@@ -88,7 +88,7 @@ My focus is **frontend**. I connect it to APIs, databases and cloud services, an
   <img src="./assets/v3/en/h5.svg" width="100%" alt="Let's build something">
 </h2>
 
-I am looking for a **junior frontend or full stack** opportunity where I can contribute to a product, learn from other developers and grow with a team. If my profile fits what you are building, let us talk.
+I am looking for a **junior full stack** opportunity where I can contribute to a product, learn from other developers and grow with a team. If my profile fits what you are building, let us talk.
 
 <p align="center">
   <a href="mailto:ayuquinaangel4220@gmail.com"><img src="./assets/v3/en/cta-mail.svg" height="44" alt="Email me"></a><br>
